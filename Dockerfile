@@ -1,8 +1,6 @@
 FROM openjdk:8
 LABEL maintainer="Emertyl <lremy@is4ri.com>"
 
-VOLUME /tmp
-
 COPY runjar.sh /usr/local/runjar.sh
 
 RUN chmod +x /usr/local/runjar.sh
